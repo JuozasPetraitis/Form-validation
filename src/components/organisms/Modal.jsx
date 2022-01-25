@@ -7,8 +7,8 @@ const Modal = ({ children, closeModal }) => {
       <div className="container m-auto flex flex-col justify-center items-center gap-8">
         {children}
         <button
+          className="border-2 border-black py-4 px-20 rounded-bl-xl rounded-tr-xl uppercase font-bold font-mono hover:tracking-widest md:border-teal-800 md:hover:border-white md:text-white"
           onClick={() => closeModal()}
-          className="text-center py-2 px-28 font-bold bg-gradient-to-r from-[#84fab0] to-[#8fd3f4] hover:from-[#8fd3f4] hover:to-[#84fab0] hover:text-white hover:border rounded-sm cursor-pointer"
         >
           Close
         </button>

@@ -17,9 +17,9 @@ const App = () => {
 
   return (
     <>
-      <div className="bg-gradient-to-r from-[#84fab0] to-[#8fd3f4] h-screen flex justify-center items-center">
+      <div className="bg-gradient-to-r from-[#6b2331] to-[#ba0d30] h-screen flex justify-center items-center">
         <button
-          className="border-2 border-teal-800 text-white py-4 px-20 rounded-bl-xl rounded-tr-xl uppercase font-bold font-mono hover:border-white hover:tracking-widest"
+          className="border-2 border-white text-white py-4 px-20 rounded-bl-xl rounded-tr-xl uppercase font-bold font-mono hover:tracking-widest"
           onClick={openModal}
         >
           Sign Up

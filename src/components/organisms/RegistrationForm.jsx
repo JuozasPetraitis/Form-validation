@@ -100,7 +100,7 @@ const RegistrationForm = ({ helpers }) => {
 
   return (
     <div className="container m-auto">
-      <div className="flex flex-col px-1 md:flex-row md:justify-center">
+      <div className="flex flex-col md:flex-row md:justify-center">
         <div className="relative">
           <img
             src="https://raw.githubusercontent.com/JoyShaheb/Project-image-repo/e2aa9d5d409b28efe7040e4b92da891c64ee23ce/Form-Validation/images/illustration.svg"
@@ -112,7 +112,7 @@ const RegistrationForm = ({ helpers }) => {
             alt=""
             className="absolute top-0 left-0 pt-2 pl-2"
           />
-          <p className="absolute bottom-3 lg:bottom-7 text-center w-full text-lg text-white">
+          <p className="absolute bottom-7 text-center w-full text-white">
             Start for free & Get Attractive offers today
           </p>
         </div>
